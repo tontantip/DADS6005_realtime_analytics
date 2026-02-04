@@ -1,0 +1,36 @@
+{
+	"type": "record",
+	"name": "Order",
+	"namespace": "com.realtime.orders",
+	"fields": [
+		{
+			"name": "order_id",
+			"type": "string"
+		},
+		{
+			"name": "user_id",
+			"type": "int"
+		},
+		{
+			"name": "product_id",
+			"type": "string"
+		},
+		{
+			"name": "quantity",
+			"type": "int"
+		},
+		{
+			"name": "price",
+			"type": "double"
+		},
+		{
+			"name": "currency",
+			"type": "string",
+			"default": "THB"
+		},
+		{
+			"name": "order_time",
+			"type": "string"
+		}
+	]
+}
