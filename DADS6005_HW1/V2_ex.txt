@@ -1,0 +1,42 @@
+{
+	"type": "record",
+	"name": "Order",
+	"namespace": "com.realtime.orders",
+	"fields": [
+		{
+			"name": "order_id",
+			"type": "string",
+			"default": "NO_REC"
+		},
+		{
+			"name": "user_id",
+			"type": "int",
+			"default": 00
+		},
+		{
+			"name": "product_id",
+			"type": "string",
+			"default": "NO_REC"
+		},
+		{
+			"name": "quantity",
+			"type": "int",
+			"default": 1
+		},
+		{
+			"name": "price",
+			"type": "double",
+			"default": 0.0
+		},
+		{
+			"name": "currency",
+			"type": "string",
+			"default": "THB"
+		},
+		{
+			"name": "order_time",
+			"type": "string",
+			"default": "NO_REC"
+		}
+	]
+}
